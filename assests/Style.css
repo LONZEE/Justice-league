@@ -1,22 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 .hero{
     height: 50%;
     width: 100%;
-    display: flex;
     background-color: #000000;
     background-size: cover;
-    background-position: center;
+    background-position: absolute;
+}
+h1{
+    font-size: 100px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 header{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; /* Ensure the header is on top of the image */
+    z-index: 1; 
     text-align: center;
-    color: white; /* Set the color of the header text */
+    color: white; 
+}
+header nav ul { 
+    list-style-type: none;
+    font-size: 50px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
