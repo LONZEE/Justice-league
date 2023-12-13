@@ -1,35 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Love+Ya+Like+A+Sister&family=Rock+Salt&family=Whisper&display=swap');
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  } */
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
-}
-.hero{
-    height: 50%;
-    width: 100%;
+   
+    background-image: url("Menu.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
     background-color: #000000;
-    background-size: cover;
-    background-position: absolute;
+   
+  }
+ 
+header {
+    font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color:transparent;
 }
-h1{
+header h1 { 
+  font-family: 'Rock Salt', cursive;
+  font-weight: 600;
+  font-size: 75px;
+  padding-left: 50px;
+  display: inline-block;
+  color: #fff;
+  text-shadow: -9px -11px 13px black
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.League{
+display: grid;
+padding-left: 30px;
+margin-right: 155px;
+margin-left: 100px;
+padding: 20px;
+float: left;
+width: 35%;
+height: 100%;
+justify-items: center;
+}
+.League p{
+  margin: 50px;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: 'grape nuts', cursive;
+  font-weight: 600;
+  text-shadow: -6px -10px 6px black;
+}
+
+button {
+    margin: 1em;
+    padding: 0.5em 1em;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
+.container{
+   
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding-bottom: -223px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 40%;
+    max-height: 50%;
+}
+.container h3{
+  aspect-ratio: 3/2;
     font-size: 100px;
+    text-shadow: 0px -12px 10px black
+    
+   
+}
+.container h2{
+  font-size: 35px;
+  text-shadow: 1px -14px 6px black;
+}
+.results{
+    text-align: center;
+    padding: 1em;
+    background-color: transparent; 
+}
+
+.container img{
+  border-radius: 85px;
+  width: 30%;
+  padding: 60px;
+  filter: drop-shadow(-6px 9px 26px white);
+  
+}
+
+.justice-hover {
+    font-family: 'Rock Salt';
+    width: 260px;
+    font-size: 25px;
     font-weight: 600;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-header{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1; 
-    text-align: center;
-    color: white; 
-}
-header nav ul { 
-    list-style-type: none;
-    font-size: 50px;
-}
-a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 100px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-shadow: -6px 0px 19px black;
+  }
+  
+  .justice-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .justice-hover:focus {
+    outline: none;
+  }
+  
+  .justice-hover.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #e97400,
+      #f70c0c,
+      #fee404,
+      #ff6301
+    );
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.75);
+  }
+
+@media screen and (max-width: 2100px) {
+    body {
+      background-image: url('Menu-mobile.jpg');
+      background-size: cover;
+        background-repeat: no-repeat;
+      }
+      header {
+        display: flex;
+        padding-top: 100px;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+          /* padding: 20px;
+          background-color:transparent; */
+    }
+    header h1 { 
+        font-size: 40px;
+        color: #fff
+      
+      }
+    .League{
+      margin-left: 340px;
+        width: 50%;
+    }
+    .league p{
+      font-size: 20px;
+    }
+    
+    .container{
+        margin-left: 400px;
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        
+    }
+    .container img{
+      width: 50%;
+    }
+    .container h3{
+      font-size: 70px;
+    }
+  
 }
