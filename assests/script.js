@@ -3,7 +3,20 @@ document.getElementById('Generate Food').addEventListener('click', function () {
     // const mealTime = document.getElementById('meal-time').value;
     getMeal();
     getDrink();
+    var h3Element = document.querySelector('.container h3');
+    if (h3Element) {
+        h3Element.remove();
+    }
 });
+function toggleMenu(){
+    var menuItems = document.getElementById("menu-items");
+    if (menuItems.className === "menu-items-hidden"){
+        menuItems.className = "menu-items-shown";
+    } else{
+    menuItems.className = "menu-items-hidden"
+}
+}
+
 
 function getMeal(mealTime) {
     fetch('https://www.themealdb.com/api/json/v1/1/random.php')
