@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Whisper&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Love+Ya+Like+A+Sister&family=Rock+Salt&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
 /* * {
     box-sizing: border-box;
     padding: 0;
@@ -16,40 +17,39 @@ body {
  
 header {
     font-family: Arial, sans-serif;
-      padding: 20px;
+      /* padding: 20px; */
       background-color:transparent;
 }
 header h1 { 
   font-family: 'Rock Salt', cursive;
   font-weight: 600;
-  font-size: 75px;
+  font-size: 70px;
   padding-left: 50px;
-  display: inline-block;
+  /* display: inline-block; */
   color: #fff;
   text-shadow: -9px -11px 13px black
 }
-a{
-  text-decoration: none;
-  color: #fff;
-}
 .League{
-display: grid;
+display: flex;
+flex-direction: column;
 padding-left: 30px;
-margin-right: 155px;
+margin-right: 100px;
 margin-left: 100px;
 padding: 20px;
 float: left;
 width: 35%;
 height: 100%;
 justify-items: center;
+align-items: center;
+background-color: #00000091;
+
 }
 .League p{
   margin: 50px;
   font-size: 50px;
   color: #fff;
   text-align: center;
-  font-family: 'grape nuts', cursive;
-  font-weight: 600;
+  font-family: 'Libre Franklin', sans-serif; 
   text-shadow: -6px -10px 6px black;
 }
 
@@ -72,7 +72,7 @@ button:hover {
     margin-left: 50px;
     margin-top: 10px;
     margin-right: 50px;
-    padding-bottom: -223px;
+    /* padding-bottom: -223px; */
     color: #fff;
     text-align: center;
     font-family: 'Rock Salt', cursive;
@@ -82,7 +82,6 @@ button:hover {
     max-height: 50%;
 }
 .container h3{
-  aspect-ratio: 3/2;
     font-size: 100px;
     text-shadow: 0px -12px 10px black
     
@@ -101,14 +100,14 @@ button:hover {
 .container img{
   border-radius: 85px;
   width: 30%;
-  padding: 60px;
+  margin: 10px;
   filter: drop-shadow(-6px 9px 26px white);
   
 }
 
 .justice-hover {
     font-family: 'Rock Salt';
-    width: 260px;
+    width: 640px;
     font-size: 25px;
     font-weight: 600;
     color: #fff;
@@ -119,7 +118,7 @@ button:hover {
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
+    /* moz-transition: all .4s ease-in-out; */
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -128,7 +127,7 @@ button:hover {
   
   .justice-hover:hover {
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
+    /* moz-transition: all .4s ease-in-out; */
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -149,20 +148,53 @@ button:hover {
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.75);
   }
 
+.historybutton {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history {
+  /* Keep the history section fixed at the bottom left */
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Semi-transparent white background */
+  padding: 10px;
+  border-radius: 10px;
+  width: 630px;
+  /* Adjust as needed */
+  max-height: 200px;
+  /* Reduced max-height */
+  overflow-y: auto;
+  /* Allows scrolling if content is too long */
+  font-family: 'Rock Salt', cursive;
+  color: black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  /* Ensures it stays on top of other elements */
+}
+
+.history h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 2100px) {
     body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       background-image: url('Menu-mobile.jpg');
       background-size: cover;
-        background-repeat: no-repeat;
+      background-repeat: no-repeat;
       }
       header {
         display: flex;
         padding-top: 100px;
         align-items: center;
         flex-direction: column;
-        font-family: Arial, sans-serif;
-          /* padding: 20px;
-          background-color:transparent; */
     }
     header h1 { 
         font-size: 40px;
@@ -170,26 +202,29 @@ button:hover {
       
       }
     .League{
-      margin-left: 340px;
         width: 50%;
+        background: none;
     }
-    .league p{
-      font-size: 20px;
+    .League p{
+      font-size: 30px;
     }
     
     .container{
-        margin-left: 400px;
         margin-top: 30px;
-        width: 100%;
-        height: 100%;
-        padding: 0 20px;
         
     }
+    .container h2{
+      font-size: 15px;
+    }
     .container img{
-      width: 50%;
+      width: 40%;
+      padding: 40px;
     }
     .container h3{
       font-size: 70px;
+    }
+    .justice-hover{
+      margin: 5px;
     }
   
 }
