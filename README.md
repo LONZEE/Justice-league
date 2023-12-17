@@ -6,7 +6,7 @@
 - To use the website all you need to do is press the generate button on the screen and a combination will display.
 - If the user wants to look at the history all you need to do is look under the history button and it will be displayed on the screen.
 ### Desktop
-![desktop](C:\Users\HOME\Justice-league\assests\Menu.jpeg)
+![desktop](assests/Menu.jpeg)
 
 ### IPad
 ![ipad](Menu-mobile.jpg)
