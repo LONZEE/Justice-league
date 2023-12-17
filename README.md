@@ -5,8 +5,8 @@
 ## How To Use
 - To use the website all you need to do is press the generate button on the screen and a combination will display.
 - If the user wants to look at the history all you need to do is look under the history button and it will be displayed on the screen.
-![desktop](assests\Menu.jpeg)
-![ipad](assests\Menu-mobile.jpg)
+![desktop](..assests\Menu.jpeg)
+![ipad](Menu-mobile.jpg)
 ### API's Used
 - https://www.thecocktaildb.com/api.php
 - https://www.themealdb.com/api.php
