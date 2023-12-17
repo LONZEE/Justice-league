@@ -18,7 +18,7 @@ header {
 header h1 { 
   font-family: 'Rock Salt', cursive;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 45px;
   padding-left: 50px;
   color: #fff;
   text-shadow: -9px -11px 13px black
@@ -27,7 +27,7 @@ header h1 {
 display: flex;
 flex-direction: column;
 padding-left: 30px;
-margin-right: 100px;
+margin-right: 50px;
 margin-left: 100px;
 padding: 20px;
 float: left;
@@ -39,12 +39,11 @@ background-color: #00000091;
 
 }
 .League p{
-  margin: 50px;
-  font-size: 50px;
+  margin: 10px;
+  font-size: 40px;
   color: #fff;
   text-align: center;
   font-family: 'Libre Franklin', sans-serif; 
-  /* text-shadow: -6px -10px 6px black; */
 }
 
 button {
@@ -81,7 +80,7 @@ button:hover {
    
 }
 .container h2{
-  font-size: 35px;
+  /* font-size: 3px; */
   text-shadow: 1px -14px 6px black;
 }
 .results{
@@ -91,7 +90,7 @@ button:hover {
 }
 
 .container img{
-  /* border-radius: 85px;s */
+  border-radius: 50px;
   width: 30%;
   margin: 10px;
   filter: drop-shadow(-6px 9px 26px white);
@@ -100,13 +99,13 @@ button:hover {
 
 .justice-hover {
     font-family: 'Rock Salt';
-    width: 640px;
-    font-size: 25px;
+    width: 400px;
+    font-size: 15px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
     margin: 20px;
-    height: 100px;
+    height: 80px;
     text-align:center;
     border: none;
     background-size: 300% 100%;
@@ -149,11 +148,11 @@ button:hover {
   /* Keep the history section fixed at the bottom left */
   /* bottom: 10px;
   left: 10px; */
-  background-color: rgba(255, 255, 255, 0.363);
+  background-color: rgba(255, 255, 255, 0.25);
   /* Semi-transparent white background */
   /* padding: 10px; */
   border-radius: 10px;
-  width: 630px;
+  width: 488px;
   /* Adjust as needed */
   max-height: 200px;
   /* Reduced max-height */
@@ -166,7 +165,7 @@ button:hover {
 }
 
 .history h3 {
-  font-size: 20px;
+  /* font-size: 20px; */
   text-align: center;
   margin-bottom: 10px;
 }
