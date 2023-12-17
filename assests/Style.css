@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Whisper&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Love+Ya+Like+A+Sister&family=Rock+Salt&family=Whisper&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
-/* * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  } */
+
 body {
    
     background-image: url("Menu.jpeg");
@@ -17,7 +13,6 @@ body {
  
 header {
     font-family: Arial, sans-serif;
-      /* padding: 20px; */
       background-color:transparent;
 }
 header h1 { 
@@ -25,7 +20,6 @@ header h1 {
   font-weight: 600;
   font-size: 70px;
   padding-left: 50px;
-  /* display: inline-block; */
   color: #fff;
   text-shadow: -9px -11px 13px black
 }
@@ -50,7 +44,7 @@ background-color: #00000091;
   color: #fff;
   text-align: center;
   font-family: 'Libre Franklin', sans-serif; 
-  text-shadow: -6px -10px 6px black;
+  /* text-shadow: -6px -10px 6px black; */
 }
 
 button {
@@ -72,7 +66,6 @@ button:hover {
     margin-left: 50px;
     margin-top: 10px;
     margin-right: 50px;
-    /* padding-bottom: -223px; */
     color: #fff;
     text-align: center;
     font-family: 'Rock Salt', cursive;
@@ -98,7 +91,7 @@ button:hover {
 }
 
 .container img{
-  border-radius: 85px;
+  /* border-radius: 85px;s */
   width: 30%;
   margin: 10px;
   filter: drop-shadow(-6px 9px 26px white);
@@ -118,7 +111,6 @@ button:hover {
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
-    /* moz-transition: all .4s ease-in-out; */
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -127,7 +119,6 @@ button:hover {
   
   .justice-hover:hover {
     background-position: 100% 0;
-    /* moz-transition: all .4s ease-in-out; */
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -156,11 +147,11 @@ button:hover {
 
 .history {
   /* Keep the history section fixed at the bottom left */
-  bottom: 10px;
-  left: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* bottom: 10px;
+  left: 10px; */
+  background-color: rgba(255, 255, 255, 0.363);
   /* Semi-transparent white background */
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 10px;
   width: 630px;
   /* Adjust as needed */
@@ -170,7 +161,6 @@ button:hover {
   /* Allows scrolling if content is too long */
   font-family: 'Rock Salt', cursive;
   color: black;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   z-index: 1000;
   /* Ensures it stays on top of other elements */
 }
@@ -181,7 +171,7 @@ button:hover {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1100px) {
     body {
       display: flex;
       flex-direction: column;
@@ -189,6 +179,10 @@ button:hover {
       background-image: url('Menu-mobile.jpg');
       background-size:cover;
       background-repeat: no-repeat;
+    }
+    #hideme{
+      display: none;
+  
       }
       header {
         display: flex;
@@ -204,9 +198,11 @@ button:hover {
     .League{
         width: 50%;
         background: none;
+        /* display: none; */
     }
     .League p{
       font-size: 30px;
+      display: none;
     }
     
     .container{
@@ -224,7 +220,14 @@ button:hover {
       font-size: 70px;
     }
     .justice-hover{
+      font-size: 15px;
       margin: 5px;
+      width: 500px;
+      height: 55px;
     }
-  
-}
+    .history{
+      width: 460px;
+
+    }
+  }
+ 
