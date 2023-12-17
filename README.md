@@ -5,8 +5,8 @@
 ## How To Use
 - To use the website all you need to do is press the generate button on the screen and a combination will display.
 - If the user wants to look at the history all you need to do is look under the history button and it will be displayed on the screen.
-![desktop](https://github.com/Wa1kingCorpse/test/assets/148672488/d2e2a3ba-c7c3-4b98-8aca-d4c80dbe097d)
-![ipad](https://github.com/Wa1kingCorpse/test/assets/148672488/38b6ea0b-dfa1-4793-9532-13fe1e1697ea)
+![desktop](assests\Menu.jpeg)
+![ipad](assests\Menu-mobile.jpg)
 ### API's Used
 - https://www.thecocktaildb.com/api.php
 - https://www.themealdb.com/api.php
