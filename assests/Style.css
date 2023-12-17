@@ -179,29 +179,29 @@ button:hover {
       background-size:cover;
       background-repeat: no-repeat;
     }
-    #hideme{
+    header {
+      display: flex;
+      padding-top: 100px;
+      align-items: center;
+      flex-direction: column;
+    }
+    header h1 { 
+      font-size: 40px;
+      color: #fff
+      
+    }
+    .League{
+      width: 50%;
+      background: none;
+      /* display: none; */
+    }
+    .hide{
       display: none;
   
       }
-      header {
-        display: flex;
-        padding-top: 100px;
-        align-items: center;
-        flex-direction: column;
-    }
-    header h1 { 
-        font-size: 40px;
-        color: #fff
-      
-      }
-    .League{
-        width: 50%;
-        background: none;
-        /* display: none; */
-    }
     .League p{
-      font-size: 30px;
-      display: none;
+      font-size: 20px;
+      /* display: none; */
     }
     
     .container{
