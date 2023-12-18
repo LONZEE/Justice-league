@@ -9,13 +9,13 @@
 ![desktop](assests/Menu.jpeg)
 
 ### IPad
-![ipad](Menu-mobile.jpg)
+![ipad](assests/Menu-mobile.jpg)
 
 ### API's Used
 - https://www.thecocktaildb.com/api.php
 - https://www.themealdb.com/api.php
 ### Thinking Process  
-![Capture](https://github.com/Wa1kingCorpse/test/assets/148672488/a0b928a2-d2a4-404a-bc66-0a9ef210a9a8)
+![Capture](assests/Figma.png)
 ### Credits
 - Edgar Lopez
 - Luis Llamas
